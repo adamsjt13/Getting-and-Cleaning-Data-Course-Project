@@ -6,9 +6,7 @@ accelerometers from a Samsung Galaxy S smartphone. The measurements were taken f
 
 The function "run_analysis.R" uses the following steps to modify the data:
 
-1. Uses read.table to read in the data from the test and train data sets, as well as the feature labels
- 
-NOTE: In order for this function to work properly, the data must be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and the folder must be located in the current R Working Directory. 
+1. Uses read.table to read in the data from the test and train data sets, as well as the feature labels  ***NOTE: In order for this function to work properly, the data must be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and the folder must be located in the current R Working Directory.*** 
 
 2. Combines the test and train data while also adding two new columns, "Activity" and "Subject", to describe the activity performed and the individual being tested. The original data uses a number to reference each activity but 
 run_analysis.R relabels the numbers to the actual activity being performed. This was done by looking at the activity_labels.txt file in order to match the number to the appropriate activity.
