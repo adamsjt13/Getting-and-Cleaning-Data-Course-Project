@@ -6,16 +6,11 @@ was then modified using run_analysis.R as described in the README.md of this rep
 
 #Columns:
 
-"Activity" - provides a description of the activity being performed when the measurements were taken
+"Activity" - provides a description of the activity being performed when the measurements were taken                         
 "Subject" - provides a numerical id for each person who was tested, total of 30 participants
 
-Each of the following columns contain the average for each subject performing each activity:
+***Each of the following columns contain the average for each subject performing each activity:***
 
-*'t' and 'f' prefixes stand for time and frequency domains respectively
-*'acc' and 'gyro' portion refers to the accelerometer and gyroscope measurement data respectively
-*'X', 'Y', and 'Z' suffixes denote the dimension in which the measurement was obtained
-* 'mean' and 'std' refer to the mean and standard deviation respectively
- 
 "tBodyAcc.mean.X"          
 "tBodyAcc.mean.Y"         
 "tBodyAcc.mean.Z"           
@@ -83,3 +78,7 @@ Each of the following columns contain the average for each subject performing ea
 "fBodyBodyGyroJerkMag.mean" 
 "fBodyBodyGyroJerkMag.std"
 
+* 't' and 'f' prefixes stand for time and frequency domains respectively
+* 'acc' and 'gyro' portion refers to the accelerometer and gyroscope measurement data respectively
+* 'X', 'Y', and 'Z' suffixes denote the dimension in which the measurement was obtained
+* 'mean' and 'std' refer to the mean and standard deviation respectively
